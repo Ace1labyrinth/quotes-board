@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(47, 9, 81);
+    background-image: url(/pix.png);
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 500px;
+    margin: 60px auto;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.quotes {
+    font-size:30px;
+    font-style: italic;
+    color: white;
+    font-weight: bolder;
+}
+.author {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+h1 {
+    color: rgb(237, 236, 236);
+    background-color: purple transparent;
+    font-size: 50px;
+}
+button {
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    color: rgb(254, 191, 191);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform .4s;
+}
+button:hover {
+    transform: scale(1.2);
+}
