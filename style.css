@@ -1,6 +1,6 @@
 body {
     background-color: rgb(47, 9, 81);
-    background-image: url(/pix.png);
+    background-image: url(./pix.png);
     display: flex;
     background-repeat: no-repeat;
 }
